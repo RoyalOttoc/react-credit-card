@@ -9,20 +9,18 @@ const MyCard = () => {
   const [name, setName] = useState('')
   const [number, setNumber] = useState('')
 
-  const style = {
-    zIndex: '5',
-    backgroundColor: 'red',
-  }
   return (
     <div className="App">
-      <Cards
-        cvc={cvc}
-        expiry={expiry}
-        focused={focus}
-        name={name}
-        number={number}
-        style={style}
-      />
+      <div className="card">
+        <Cards
+          cvc={cvc}
+          expiry={expiry}
+          focused={focus}
+          name={name}
+          number={number}
+        />
+      </div>
+
       <form>
         <span>Card Number</span>
         <input
@@ -44,14 +42,15 @@ const MyCard = () => {
         />
         <span>Expiration Date</span>
         <input
-          type="month"
+          type="tel"
           name="expiry"
-          placeholder="MM/YY expiry"
+          placeholder="MM/YY"
           value={expiry}
           onChange={(e) => setExpiry(e.target.value)}
           onFocus={(e) => setFocus(e.target.name)}
         />
         <span>CVC</span>
+
         <input
           type="tel"
           name="cvc"
@@ -60,6 +59,7 @@ const MyCard = () => {
           onChange={(e) => setCvc(e.target.value)}
           onFocus={(e) => setFocus(e.target.name)}
         />
+        <input className="submit" type="submit" />
       </form>
     </div>
   )
