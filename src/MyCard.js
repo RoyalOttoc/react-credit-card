@@ -14,7 +14,7 @@ const MyCard = () => {
     const errorMessage = (message) => (
       <i className="fas fa-exclamation-circle">&nbsp;{message}</i>
     )
-    if (number === '') {
+    if (number.length < 13) {
       event.preventDefault()
       setError(errorMessage('Card number must be 13 characters or more'))
     } else if (name === '') {
@@ -25,9 +25,9 @@ const MyCard = () => {
     } else if (expiry === '') {
       event.preventDefault()
       setError(errorMessage('Expiry date is required'))
-    } else if (cvc === '') {
+    } else if (cvc.length < 3) {
       event.preventDefault()
-      setError(errorMessage('Card security code must be a number'))
+      setError(errorMessage('Card security code must be 3 numbers or more'))
     }
   }
   return (
@@ -60,7 +60,7 @@ const MyCard = () => {
           name="name"
           placeholder="Name"
           value={name}
-          pattern="[a-z]{1,20}"
+          pattern="^[a-zA-Z ]*$"
           onChange={(e) => setName(e.target.value)}
           onFocus={(e) => setFocus(e.target.name)}
         />
