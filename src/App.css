@@ -4,17 +4,11 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: #ff512f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #dd2476,
-    #ff512f
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #dd2476, #ff512f);
+  background: #dce8fc;
 }
 
 .App {
-  width: 1000px;
+  width: 80vw;
   display: flex;
   height: 30vh;
   padding-bottom: 100px;
@@ -32,19 +26,25 @@ form {
 }
 
 input {
-  background: #f9f9f9;
+  background: white;
   padding: 10px;
   width: 100%;
-  border: none;
+  border: 1px solid #999999;
   margin-bottom: 20px;
   font-size: 14px;
   color: rgb(0, 0, 0);
   outline: none;
   font-weight: 300;
+  cursor: pointer;
 }
 
+span {
+  font-size: 13px;
+  display: block;
+  padding-bottom: 5px;
+}
 .rccs__card--unknown > div {
-  background: #75c9a5;
+  background: #dce8fc;
 }
 
 .card {
@@ -57,4 +57,17 @@ input {
 .submit {
   background-color: #3a4fcf;
   color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #263283;
+}
+
+.submit:active {
+  background-color: #263283;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
 }
