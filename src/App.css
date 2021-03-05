@@ -53,7 +53,7 @@ span.error {
   color: red;
 }
 .rccs__card--unknown > div {
-  background: #dce8fc;
+  background: #999999;
 }
 
 .card {
