@@ -23,6 +23,9 @@ form {
   width: 80%;
   margin: 0 auto;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
@@ -30,6 +33,7 @@ input {
   padding: 10px;
   width: 100%;
   border: 1px solid #999999;
+  border-radius: 5px;
   margin-bottom: 20px;
   font-size: 14px;
   color: rgb(0, 0, 0);
@@ -42,6 +46,11 @@ span {
   font-size: 13px;
   display: block;
   padding-bottom: 5px;
+  align-self: flex-start;
+}
+span.error {
+  font-size: 15px;
+  color: red;
 }
 .rccs__card--unknown > div {
   background: #dce8fc;
