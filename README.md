@@ -35,9 +35,9 @@ https://royalottoc.github.io/react-credit-card/
 ### Screent Shots
 
 - Front
-  <img width="400" alt="front" src="https://user-images.githubusercontent.com/53434429/110063596-8a73c300-7dbf-11eb-839e-bb5f9a9572b0.png">
+- <img width="400" alt="front" src="https://user-images.githubusercontent.com/53434429/110063596-8a73c300-7dbf-11eb-839e-bb5f9a9572b0.png">
 - Back
-  <img width="400" alt="back" src="https://user-images.githubusercontent.com/53434429/110063593-89db2c80-7dbf-11eb-8b7b-10cccd0f1599.png">
+- <img width="400" alt="back" src="https://user-images.githubusercontent.com/53434429/110063593-89db2c80-7dbf-11eb-8b7b-10cccd0f1599.png">
 - Number Validation
   <img width="400" alt="number_validation" src="https://user-images.githubusercontent.com/53434429/110063590-89429600-7dbf-11eb-903c-f8aaeecb748e.png">
 - Name Validation
