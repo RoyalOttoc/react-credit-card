@@ -61,6 +61,7 @@ span.error {
   width: 290px;
   border-radius: 15px;
   box-shadow: 10px 10px 8px #888888;
+  background-color: #999999;
 }
 
 .submit {
