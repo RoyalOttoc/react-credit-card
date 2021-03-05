@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RoyalOttoc/react-credit-card/static/css/main.aafe9b81.chunk.css",
+    "main.js": "/RoyalOttoc/react-credit-card/static/js/main.6d112e99.chunk.js",
+    "main.js.map": "/RoyalOttoc/react-credit-card/static/js/main.6d112e99.chunk.js.map",
+    "runtime-main.js": "/RoyalOttoc/react-credit-card/static/js/runtime-main.652637bc.js",
+    "runtime-main.js.map": "/RoyalOttoc/react-credit-card/static/js/runtime-main.652637bc.js.map",
+    "static/css/2.4096cf77.chunk.css": "/RoyalOttoc/react-credit-card/static/css/2.4096cf77.chunk.css",
+    "static/js/2.686b1498.chunk.js": "/RoyalOttoc/react-credit-card/static/js/2.686b1498.chunk.js",
+    "static/js/2.686b1498.chunk.js.map": "/RoyalOttoc/react-credit-card/static/js/2.686b1498.chunk.js.map",
+    "index.html": "/RoyalOttoc/react-credit-card/index.html",
+    "static/css/2.4096cf77.chunk.css.map": "/RoyalOttoc/react-credit-card/static/css/2.4096cf77.chunk.css.map",
+    "static/css/main.aafe9b81.chunk.css.map": "/RoyalOttoc/react-credit-card/static/css/main.aafe9b81.chunk.css.map",
+    "static/js/2.686b1498.chunk.js.LICENSE.txt": "/RoyalOttoc/react-credit-card/static/js/2.686b1498.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.652637bc.js",
+    "static/css/2.4096cf77.chunk.css",
+    "static/js/2.686b1498.chunk.js",
+    "static/css/main.aafe9b81.chunk.css",
+    "static/js/main.6d112e99.chunk.js"
+  ]
+}
